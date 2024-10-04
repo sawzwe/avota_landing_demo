@@ -1,0 +1,16 @@
+{
+    "header": {
+        "logo": "XORA",
+        "nav": {
+            "features": "Características",
+            "pricing": "Precios",
+            "faq": "Preguntas Frecuentes",
+            "download": "Descargar"
+        }
+    },
+    "hero": {
+        "caption": "Edición de Video",
+        "title": "Increíblemente Simple",
+        "description": "Diseñamos XORA AI Video Editor para que sea fácil de usar, rápido de aprender y sorprendentemente poderoso."
+    }
+}

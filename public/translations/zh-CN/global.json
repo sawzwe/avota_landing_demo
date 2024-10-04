@@ -1,0 +1,16 @@
+{
+    "header": {
+        "logo": "XORA",
+        "nav": {
+            "features": "功能",
+            "pricing": "定价",
+            "faq": "常见问题",
+            "download": "下载"
+        }
+    },
+    "hero": {
+        "caption": "视频编辑",
+        "title": "极其简单",
+        "description": "我们设计了 XORA AI 视频编辑器，使其易于使用、快速上手，并且功能强大。"
+    }
+}
