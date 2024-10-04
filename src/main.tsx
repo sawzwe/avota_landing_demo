@@ -29,9 +29,11 @@ const loadResources = async (): Promise<
 };
 
 loadResources().then((resources) => {
+  const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
+
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: "en",
+    lng: savedLanguage,
     resources,
   });
 
