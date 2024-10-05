@@ -1,16 +1,17 @@
 {
-    "header": {
-        "logo": "XORA",
-        "nav": {
-            "features": "Features",
-            "pricing": "Pricing",
-            "faq": "FAQ",
-            "download": "Download"
-        }
-    },
-    "hero": {
-        "caption": "Video Editing",
-        "title": "Amazingly Simple",
-        "description": "We designed XORA AI Video Editor to be an easy to use, quick to learn and surisingly powerful."
+  "header": {
+    "logo": "XORA",
+    "nav": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "download": "Download"
     }
-}   
+  },
+  "hero": {
+    "caption": "Video Editing",
+    "title": "Amazingly Simple",
+    "description": "We designed XORA AI Video Editor to be an easy to use, quick to learn and surisingly powerful.",
+    "buttonText": "Try it Now"
+  }
+}
