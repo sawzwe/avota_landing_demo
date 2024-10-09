@@ -5,19 +5,35 @@ import { useTranslation } from "react-i18next";
 import ReactFlagsSelect from "react-flags-select";
 import { languages } from "../config/languages/languages";
 
-const NavLink = ({ title, to }: { title: string; to: string }) => (
-  <LinkScroll
-    className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
-    to={to}
-  >
-    {title}
-  </LinkScroll>
-);
-
 const Header = () => {
   const { t, i18n } = useTranslation("global");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [selectedLanguage, setSelectedLanguage] = useState<string>("US");
+  const [hasScrolled, setHasScrolled] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 32);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const NavLink = ({ title, to }: { title: string; to: string }) => (
+    <LinkScroll
+      className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+      to={to}
+      offset={-100}
+      spy
+      smooth
+      activeClass="nav-active"
+      onClick={() => setIsOpen(false)}
+    >
+      {title}
+    </LinkScroll>
+  );
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("preferredLanguage");
@@ -40,7 +56,12 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 py-10">
+    <header
+      className={clsx(
+        "fixed top-0 left-0 w-full z-50 py-10 transition-all duration-500 max-lg:py-4",
+        hasScrolled && "py-2 bg-black-100 backddrop-blur-[8px] ",
+      )}
+    >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
           <img src="/images/xora.svg" alt="XoraLogo" width={115} height={55} />
@@ -62,7 +83,7 @@ const Header = () => {
                 <li className="nav-logo">
                   <LinkScroll
                     to="hero"
-                    offset={-100}
+                    offset={-250}
                     spy
                     smooth
                     className={clsx(

@@ -13,5 +13,15 @@
     "title": "Amazingly Simple",
     "description": "We designed XORA AI Video Editor to be an easy to use, quick to learn and surisingly powerful.",
     "buttonText": "Try it Now"
+  },
+  "feature": {
+    "easy_integration": "Easy integration",
+    "work_smarter_not_harder": "Work smarter not harder",
+    "productivity_description": "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    "secure_trustworthy": "Secure & trustworthy",
+    "sleep_easy": "Sleep easy, we got your back",
+    "data_security_description": "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    "watch_the_demo": "Watch the demo",
+    "read_docs": "Read the docs"
   }
 }
