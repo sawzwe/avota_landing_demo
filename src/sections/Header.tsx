@@ -2,13 +2,11 @@ import { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
-import ReactFlagsSelect from "react-flags-select";
-import { languages } from "../config/languages/languages";
+import LanguageSelector from "../components/LanguageSelector";
 
 const Header = () => {
-  const { t, i18n } = useTranslation("global");
+  const { t } = useTranslation("global");
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("US");
   const [hasScrolled, setHasScrolled] = useState<boolean>(false);
 
   useEffect(() => {
@@ -35,26 +33,6 @@ const Header = () => {
     </LinkScroll>
   );
 
-  useEffect(() => {
-    const savedLanguage = localStorage.getItem("preferredLanguage");
-    if (savedLanguage) {
-      const countryCode = Object.keys(languages).find(
-        (key) => languages[key].code === savedLanguage,
-      );
-      if (countryCode) {
-        setSelectedLanguage(countryCode);
-      }
-    }
-  }, []);
-
-  const handleChangeLanguage = (countryCode: string) => {
-    const language = languages[countryCode]?.code;
-    if (language) {
-      i18n.changeLanguage(language);
-      localStorage.setItem("preferredLanguage", language);
-    }
-  };
-
   return (
     <header
       className={clsx(
@@ -73,12 +51,12 @@ const Header = () => {
           )}
         >
           <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before">
-            <nav className="max-lg:relatuve max-lg:block max-lg:my-auto">
-              <ul className="flex max-lg:block max-lg:px-12">
+            <nav className="flex items-center justify-between max-lg:relative max-lg:block max-lg:my-auto">
+              <ul className="flex items-center w-full max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title={t("header.nav.features")} to={""} />
+                  <NavLink title={t("header.nav.features")} to={"features"} />
                   <div className="dot" />
-                  <NavLink title={t("header.nav.pricing")} to={""} />
+                  <NavLink title={t("header.nav.pricing")} to={"pricing"} />
                 </li>
                 <li className="nav-logo">
                   <LinkScroll
@@ -99,9 +77,9 @@ const Header = () => {
                   </LinkScroll>
                 </li>
                 <li className="nav-li">
-                  <NavLink title={t("header.nav.faq")} to={""} />
+                  <NavLink title={t("header.nav.faq")} to={"faq"} />
                   <div className="dot" />
-                  <NavLink title={t("header.nav.download")} to={""} />
+                  <NavLink title={t("header.nav.download")} to={"download"} />
                 </li>
               </ul>
             </nav>
@@ -123,28 +101,19 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <button
-          className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
-          onClick={() => setIsOpen((prevState) => !prevState)}
-        >
-          <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
-            alt="Magic"
-            className="size-1/2 object-contain"
-          />
-        </button>
-        <ReactFlagsSelect
-          selected={selectedLanguage}
-          onSelect={(code) => {
-            setSelectedLanguage(code);
-            handleChangeLanguage(code);
-          }}
-          countries={Object.keys(languages)}
-          customLabels={Object.fromEntries(
-            Object.entries(languages).map(([key, { label }]) => [key, label]),
-          )}
-          placeholder="Select Language"
-        />
+        <div className="flex items-center gap-2">
+          <LanguageSelector />
+          <button
+            className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
+            onClick={() => setIsOpen((prevState) => !prevState)}
+          >
+            <img
+              src={`/images/${isOpen ? "close" : "magic"}.svg`}
+              alt="Magic"
+              className="size-1/2 object-contain"
+            />
+          </button>
+        </div>
       </div>
     </header>
   );
