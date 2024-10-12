@@ -23,5 +23,10 @@
     "data_security_description": "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
     "watch_the_demo": "Watch the demo",
     "read_docs": "Read the docs"
+  },
+  "pricing": {
+    "flexible_pricing_for_teams": "Flexible pricing for teams of all sizes",
+    "monthly": "monthly",
+    "annual": "annual"
   }
 }
