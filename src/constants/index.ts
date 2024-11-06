@@ -207,6 +207,14 @@ export const testimonials: Testimonial[] = [
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
+  {
+    id: "2",
+    name: "Adam Joles",
+    role: "Cyberleap",
+    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    comment:
+      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+  },
 ];
 
 // Global Testimonials
