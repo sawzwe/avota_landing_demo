@@ -27,6 +27,8 @@
   "pricing": {
     "flexible_pricing_for_teams": "Flexible pricing for teams of all sizes",
     "monthly": "monthly",
-    "annual": "annual"
+    "annual": "annual",
+    "get_started": "Get Started",
+    "limited_time_offer": "Limited Time Offer"
   }
 }
