@@ -1,12 +1,10 @@
 import clsx from "clsx";
 import { useState } from "react";
-import { SlideDown } from "react-slidedown";
-import "react-slidedown/lib/slidedown.css";
+import { motion, AnimatePresence } from "framer-motion";
 
-// Define the types for the props
 interface FaqItemProps {
   item: {
-    id: string; // Assuming id is a string, change if necessary
+    id: string;
     question: string;
     answer: string;
   };
@@ -51,11 +49,19 @@ const FaqItem = ({ item, index }: FaqItemProps) => {
         </div>
       </div>
 
-      <SlideDown>
+      <AnimatePresence initial={false}>
         {activeId === item.id && (
-          <div className="body-3 px-7 py-3.5">{item.answer}</div>
+          <motion.div
+            className="body-3 px-7 py-3.5"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+          >
+            {item.answer}
+          </motion.div>
         )}
-      </SlideDown>
+      </AnimatePresence>
 
       <div
         className={clsx(
