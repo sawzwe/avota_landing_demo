@@ -79,7 +79,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title={t("header.nav.faq")} to={"faq"} />
                   <div className="dot" />
-                  <NavLink title={t("header.nav.download")} to={"download"} />
+                  <NavLink title={t("header.nav.demo")} to={"demo"} />
                 </li>
               </ul>
             </nav>

@@ -5,7 +5,8 @@
       "features": "Features",
       "pricing": "Pricing",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Download",
+      "demo": "Demo"
     }
   },
   "hero": {
@@ -34,5 +35,10 @@
   "faq": {
     "title": "Curiosity didn't kill the cat",
     "description": "We've got answers to the most common questions."
+  },
+  "demo": {
+    "button": {
+      "title": "Book a demo"
+    }
   }
 }
