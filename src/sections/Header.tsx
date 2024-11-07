@@ -86,7 +86,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" onClick={() => setIsOpen(false)} />
                   <div className="dot" />
-                  <NavLink title="download" onClick={() => setIsOpen(false)} />
+                  <NavLink title="demo" onClick={() => setIsOpen(false)} />
                 </li>
               </ul>
             </nav>
