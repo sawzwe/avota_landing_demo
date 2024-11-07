@@ -6,7 +6,7 @@ export default {
       colors: {
         p1: "#2EF2FF",
         p2: "#3C52D9",
-        p3: "#F08A5D",
+        p3: "#C8EA80",
         p4: "#EAEDFF",
         p5: "#C4CBF5",
         s1: "#080D27",
