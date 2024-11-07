@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 interface FaqItemProps {
   item: {
     id: string;
@@ -13,7 +13,7 @@ interface FaqItemProps {
 
 const FaqItem = ({ item, index }: FaqItemProps) => {
   const [activeId, setActiveId] = useState<string | null>(null);
-
+  const { t } = useTranslation("global");
   const active = activeId === item.id;
 
   return (
@@ -35,7 +35,7 @@ const FaqItem = ({ item, index }: FaqItemProps) => {
               active && "max-lg:text-p1",
             )}
           >
-            {item.question}
+            {t(`${item.question}`)}
           </div>
         </div>
 
@@ -58,7 +58,7 @@ const FaqItem = ({ item, index }: FaqItemProps) => {
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
           >
-            {item.answer}
+            {t(`${item.answer}`)}
           </motion.div>
         )}
       </AnimatePresence>

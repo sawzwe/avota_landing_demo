@@ -42,7 +42,12 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" alt="XoraLogo" width={115} height={55} />
+          <img
+            src="/images/avota.png"
+            alt="AvotaLogo"
+            width={115}
+            height={55}
+          />
         </a>
         <div
           className={clsx(
@@ -69,8 +74,8 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
-                      alt="XoraLogo"
+                      src="/images/avota.png"
+                      alt="AvotaLogo"
                       width={160}
                       height={55}
                     />
@@ -102,14 +107,14 @@ const Header = () => {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <LanguageSelector />
+          {/* <LanguageSelector /> */}
           <button
             className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
             onClick={() => setIsOpen((prevState) => !prevState)}
           >
             <img
               src={`/images/${isOpen ? "close" : "magic"}.svg`}
-              alt="Magic"
+              alt="magic"
               className="size-1/2 object-contain"
             />
           </button>

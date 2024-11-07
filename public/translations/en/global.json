@@ -1,6 +1,6 @@
 {
   "header": {
-    "logo": "XORA",
+    "logo": "AVOTA",
     "nav": {
       "features": "Features",
       "pricing": "Pricing",
@@ -10,35 +10,114 @@
     }
   },
   "hero": {
-    "caption": "Video Editing",
-    "title": "Amazingly Simple",
-    "description": "We designed XORA AI Video Editor to be an easy to use, quick to learn and surisingly powerful.",
-    "buttonText": "Try it Now"
+    "caption": "Legal Assistance",
+    "title": "Effortlessly Understand",
+    "description": "We designed AVOTA AI Legal to be intuitive, easy to use, and surprisingly powerful, helping you navigate contracts and laws without hefty lawyer fees.",
+    "buttonText": "Explore Now"
   },
   "feature": {
-    "easy_integration": "Easy integration",
-    "work_smarter_not_harder": "Work smarter not harder",
-    "productivity_description": "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
-    "secure_trustworthy": "Secure & trustworthy",
-    "sleep_easy": "Sleep easy, we got your back",
-    "data_security_description": "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
-    "watch_the_demo": "Watch the demo",
-    "read_docs": "Read the docs"
+    "seamless_integration": "Seamless Integration",
+    "empower_your_legal_decisions": "Empower Your Legal Decisions",
+    "legal_jargon_simplified": "With AVOTA, complex legal jargon is simplified. Automation and smart analysis elevate your understanding, making legal processes as easy as a breeze.",
+    "secure_reliable": "Secure & Reliable",
+    "weve_got_you_covered": "We've got you covered",
+    "data_security_priority": "Your data security is our top priority. With advanced encryption and robust privacy controls, AVOTA ensures your information is as secure as a vault.",
+    "watch_the_demo": "Watch the Demo",
+    "read_the_docs": "Read the Docs"
   },
-  "pricing": {
-    "flexible_pricing_for_teams": "Flexible pricing for teams of all sizes",
-    "monthly": "monthly",
-    "annual": "annual",
-    "get_started": "Get Started",
-    "limited_time_offer": "Limited Time Offer"
+  "detail": {
+    "ai_powered_contract_analysis": "AI-Powered Contract Analysis",
+    "collaborate_with_your_legal_team": "Collaborate with Your Legal Team",
+    "fast_and_accurate_legal_insights": "Fast and Accurate Legal Insights",
+    "legal_support": "24/7 Legal Support"
   },
   "faq": {
-    "title": "Curiosity didn't kill the cat",
-    "description": "We've got answers to the most common questions."
+    "title": "Frequently Asked Questions",
+    "description": "We're here to help! If you have any questions, feel free to reach out to us.",
+    "setup_avota": "How easy is it to set up AVOTA?",
+    "setup_avota_answer": "Setting up AVOTA is straightforward and user-friendly, designed to get you started quickly with minimal hassle.",
+    "integrate_with_platforms": "Can I integrate AVOTA with other platforms?",
+    "integrate_with_platforms_answer": "Yes, AVOTA can be integrated with various platforms seamlessly to enhance your workflow.",
+    "update_legal_content": "How often do you update your legal content?",
+    "update_legal_content_answer": "We regularly update our legal content to ensure you have the latest information and features.",
+    "refund_policy": "What is your refund policy?",
+    "refund_policy_answer": "We offer a 30-day money-back guarantee if you are not satisfied with our service.",
+    "corporate_plans": "Do you have corporate plans?",
+    "corporate_plans_answer": "Yes, we offer tailored plans for corporate clients.",
+    "out_of_storage": "What happens when I’m out of storage?",
+    "out_of_storage_answer": "You will receive a notification, and you can upgrade your plan or delete unused files.",
+    "upgrade_plan": "Can I upgrade my plan?",
+    "upgrade_plan_answer": "Yes, you can upgrade your plan at any time through your account settings.",
+    "invite_team": "How do I invite my team?",
+    "invite_team_answer": "You can invite your team members through the user management section in your account.",
+    "offer_training": "Do you offer training for individuals and teams?",
+    "offer_training_answer": "Yes, we provide training sessions for both individuals and teams.",
+    "locked_out": "I’m locked out of my account, what do I do?",
+    "locked_out_answer": "You can reset your password using the 'Forgot Password' link on the login page."
+  },
+  "pricing": {
+    "flexible_pricing_for_teams": "Flexible Pricing for All Creators",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "get_started": "Get Started",
+    "limited_time_offer": "Limited Time Offer",
+    "plan": {
+      "basic": "Basic",
+      "professional": "Professional",
+      "enterprise": "Enterprise",
+      "ideal_for_solo_creators": "Ideal for solo creators",
+      "most_popular": "Most popular plan",
+      "exclusively_for_teams": "Exclusively for teams",
+      "feature": {
+        "cloud_storage": "100MB Cloud storage",
+        "basic_legal_templates": "Access to basic legal templates",
+        "contract_analyses": "5 contract analyses per month",
+        "support": "24/7 support",
+        "all_basic_features": "All Basic features",
+        "additional_storage": "1TB additional storage",
+        "unlimited_analyses": "Unlimited contract analyses",
+        "analytics": "Advanced analytics",
+        "all_professional_features": "All Professional features",
+        "ten_tb_storage": "10TB additional storage",
+        "discount_per_member": "50% off per member",
+        "real_time_collaboration": "Real-time collaboration"
+      }
+    }
+  },
+  "testimonial": {
+    "jessica_saunders": "Jessica Saunders",
+    "content_creator": "Content Creator",
+    "jessica_comment": "AVOTA's legal insights are invaluable! It's like having a legal expert on my team.",
+    "mark_erixon": "Mark Erixon",
+    "influencer": "Influencer",
+    "mark_comment": "I was skeptical at first, but now I can't imagine managing contracts without AVOTA. It's a game-changer.",
+    "melanie_hurst": "Melanie Hurst",
+    "entrepreneur": "Entrepreneur",
+    "melanie_comment": "Adopting AVOTA was a breeze. It's made understanding legal documents so much simpler.",
+    "jim_joles": "Adam Joles",
+    "business_owner": "Business Owner",
+    "jim_comment": "AVOTA has transformed how we handle legal matters. It's efficient and reliable.",
+    "jim_bradley": "Jim Bradley"
   },
   "demo": {
     "button": {
-      "title": "Book a demo"
+      "title": "Book a Demo"
+    },
+    "text": {
+      "description": "Book a demo with our team to learn more about AVOTA and how it can assist your business."
     }
+  },
+  "logo": {
+    "afterpay": "Afterpay",
+    "amplitude": "Amplitude",
+    "sonos": "Sonos",
+    "maze": "Maze",
+    "drips": "Drips"
+  },
+  "social": {
+    "x": "x",
+    "threads": "Threads",
+    "instagram": "Instagram",
+    "discord": "Discord"
   }
 }

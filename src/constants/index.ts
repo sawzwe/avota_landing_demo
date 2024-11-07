@@ -14,9 +14,9 @@ export const features: Feature[] = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "feature.easy_integration",
-    title: "feature.work_smarter_not_harder",
-    description: "feature.productivity_description",
+    caption: "feature.seamless_integration",
+    title: "feature.empower_your_legal_decisions",
+    description: "feature.legal_jargon_simplified",
     button: {
       icon: "/images/magictouch.svg",
       title: "feature.watch_the_demo",
@@ -25,12 +25,12 @@ export const features: Feature[] = [
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "feature.secure_trustworthy",
-    title: "feature.sleep_easy",
-    description: "feature.data_security_description",
+    caption: "feature.secure_reliable",
+    title: "feature.weve_got_you_covered",
+    description: "feature.data_security_priority",
     button: {
       icon: "/images/docs.svg",
-      title: "feature.read_docs",
+      title: "feature.read_the_docs",
     },
   },
 ];
@@ -43,22 +43,22 @@ export const details: Detail[] = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "detail.ai_powered_contract_analysis",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "detail.collaborate_with_your_legal_team",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "detail.fast_and_accurate_legal_insights",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "detail.legal_support",
   },
 ];
 
@@ -69,60 +69,53 @@ export const globalDetails: Detail[] = [...details]; // Copy of details
 export const faq: FAQ[] = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
-    answer:
-      "Absolutely! Not only can you upgrade your plan at any time, but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "faq.setup_avota",
+    answer: "faq.setup_avota_answer",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
-    answer: "Yes, Xora can be integrated with various platforms seamlessly.",
+    question: "faq.integrate_with_platforms",
+    answer: "faq.integrate_with_platforms_answer",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
-    answer:
-      "We regularly update our content to ensure you have the latest features and information.",
+    question: "faq.update_legal_content",
+    answer: "faq.update_legal_content_answer",
   },
   {
     id: "3",
-    question: "What is your refund policy?",
-    answer:
-      "We offer a 30-day money-back guarantee if you are not satisfied with our service.",
+    question: "faq.refund_policy",
+    answer: "faq.refund_policy_answer",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
-    answer: "Yes, we offer tailored plans for corporate clients.",
+    question: "faq.corporate_plans",
+    answer: "faq.corporate_plans_answer",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
-    answer:
-      "You will receive a notification, and you can upgrade your plan or delete unused files.",
+    question: "faq.out_of_storage",
+    answer: "faq.out_of_storage_answer",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Yes, you can upgrade your plan at any time through your account settings.",
+    question: "faq.upgrade_plan",
+    answer: "faq.upgrade_plan_answer",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "You can invite your team members through the user management section in your account.",
+    question: "faq.invite_team",
+    answer: "faq.invite_team_answer",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer: "Yes, we provide training sessions for both individuals and teams.",
+    question: "faq.offer_training",
+    answer: "faq.offer_training_answer",
   },
   {
     id: "9",
-    question: "I’m locked out of my account, what do I do?",
-    answer:
-      'You can reset your password using the "Forgot Password" link on the login page.',
+    question: "faq.locked_out",
+    answer: "faq.locked_out_answer",
   },
 ];
 
@@ -133,45 +126,45 @@ export const globalFAQ: FAQ[] = [...faq]; // Copy of FAQ
 export const plans: Plan[] = [
   {
     id: "0",
-    title: "Core",
+    title: "plan.basic",
     priceMonthly: 19,
     priceYearly: 12,
-    caption: "Best for solo creators",
+    caption: "plan.ideal_for_solo_creators",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "plan.feature.cloud_storage",
+      "plan.feature.basic_legal_templates",
+      "plan.feature.contract_analyses",
+      "plan.feature.support",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "plan.professional",
     priceMonthly: 79,
     priceYearly: 59,
-    caption: "Most popular plan",
+    caption: "plan.most_popular",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "plan.feature.all_basic_features",
+      "plan.feature.additional_storage",
+      "plan.feature.unlimited_analyses",
+      "plan.feature.analytics",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
+    title: "plan.enterprise",
     priceMonthly: 39,
     priceYearly: 29,
-    caption: "Exclusively for teams",
+    caption: "plan.exclusively_for_teams",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "plan.feature.all_professional_features",
+      "plan.feature.ten_tb_storage",
+      "plan.feature.discount_per_member",
+      "plan.feature.real_time_collaboration",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -185,35 +178,31 @@ export const globalPlans: Plan[] = [...plans]; // Copy of plans
 export const testimonials: Testimonial[] = [
   {
     id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
+    name: "testimonial.jessica_saunders",
+    role: "testimonial.content_creator",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
-    comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+    comment: "testimonial.jessica_comment",
   },
   {
     id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
+    name: "testimonial.mark_erixon",
+    role: "testimonial.influencer",
     avatarUrl: "/images/testimonials/mark-erixon.png",
-    comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+    comment: "testimonial.mark_comment",
   },
   {
     id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
+    name: "testimonial.melanie_hurst",
+    role: "testimonial.entrepreneur",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
-    comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+    comment: "testimonial.melanie_comment",
   },
-  {
-    id: "2",
-    name: "Adam Joles",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
-    comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+  { 
+    id: "3",
+    name: "testimonial.jim_bradley",
+    role: "testimonial.business_owner",
+    avatarUrl: "/images/testimonials/jim-bradley.png",
+    comment: "testimonial.jim_comment",
   },
 ];
 
@@ -224,35 +213,35 @@ export const globalTestimonials: Testimonial[] = [...testimonials]; // Copy of t
 export const logos: Logo[] = [
   {
     id: "0",
-    title: "Afterpay",
+    title: "logo.afterpay",
     url: "/images/logos/afterpay.svg",
     width: 156,
     height: 48,
   },
   {
     id: "1",
-    title: "Amplitude",
+    title: "logo.amplitude",
     url: "/images/logos/amplitude.svg",
     width: 194,
     height: 48,
   },
   {
     id: "2",
-    title: "Sonos",
+    title: "logo.sonos",
     url: "/images/logos/sonos.svg",
     width: 115,
     height: 48,
   },
   {
     id: "3",
-    title: "Maze",
+    title: "logo.maze",
     url: "/images/logos/maze.svg",
     width: 142,
     height: 48,
   },
   {
     id: "4",
-    title: "Drips",
+    title: "logo.drips",
     url: "/images/logos/drips.svg",
     width: 77,
     height: 48,
@@ -262,60 +251,29 @@ export const logos: Logo[] = [
 // Global Logos
 export const globalLogos: Logo[] = [...logos]; // Copy of logos
 
-// // Links
-// export const links: Link[] = [
-//   {
-//     id: '0',
-//     title: 'Ios',
-//     icon: <Ios />,
-//     url: '#',
-//   },
-//   {
-//     id: '1',
-//     title: 'Android',
-//     icon: <Android />,
-//     url: '#',
-//   },
-//   {
-//     id: '2',
-//     title: 'Windows',
-//     icon: <Windows />,
-//     url: '#',
-//   },
-//   {
-//     id: '3',
-//     title: 'Web',
-//     icon: <Web />,
-//     url: '#',
-//   },
-// ];
-
-// // Global Links
-// export const globalLinks: Link[] = [...links]; // Copy of links
-
 // Socials
 export const socials: Social[] = [
   {
     id: "0",
-    title: "x",
+    title: "social.x",
     icon: "/images/socials/x.svg",
     url: "#",
   },
   {
     id: "1",
-    title: "Threads",
+    title: "social.threads",
     icon: "/images/socials/threads.svg",
     url: "#",
   },
   {
     id: "2",
-    title: "Instagram",
+    title: "social.instagram",
     icon: "/images/socials/instagram.svg",
     url: "#",
   },
   {
     id: "3",
-    title: "Discord",
+    title: "social.discord",
     icon: "/images/socials/discord.svg",
     url: "#",
   },

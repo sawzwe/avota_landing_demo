@@ -92,7 +92,7 @@ const Pricing = () => {
                       index === 1 ? "border-p3 text-p3" : "border-p1 text-p1",
                     )}
                   >
-                    {plan.title}
+                    {t(`pricing.${plan.title}`)}
                   </div>
                   <div className="relative z-2 flex items-center justify-center">
                     <div
@@ -121,7 +121,7 @@ const Pricing = () => {
                     index === 1 && "border-b",
                   )}
                 >
-                  {plan.caption}
+                  {t(`pricing.${plan.caption}`)}
                 </div>
                 <ul className="mx-auto space-y-4 xl:px-7">
                   {plan.features.map((feature) => (
@@ -134,7 +134,7 @@ const Pricing = () => {
                         alt="check"
                         className="size-10 object-contain"
                       />
-                      <p className="flex-1">{feature}</p>
+                      <p className="flex-1">{t(`pricing.${feature}`)}</p>
                     </li>
                   ))}
                 </ul>
