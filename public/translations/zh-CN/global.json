@@ -1,16 +1,127 @@
 {
     "header": {
-        "logo": "XORA",
-        "nav": {
-            "features": "功能",
-            "pricing": "定价",
-            "faq": "常见问题",
-            "download": "下载"
-        }
+      "logo": "AVOTA",
+      "nav": {
+        "features": "功能",
+        "pricing": "定价",
+        "faq": "常见问题",
+        "download": "下载",
+        "demo": "演示"
+      }
     },
     "hero": {
-        "caption": "视频编辑",
-        "title": "极其简单",
-        "description": "我们设计了 XORA AI 视频编辑器，使其易于使用、快速上手，并且功能强大。"
+      "caption": "法律援助",
+      "title": "轻松理解",
+      "description": "我们设计了 AVOTA AI Legal，使其直观、易于使用且功能强大，帮助您在不支付高额律师费的情况下导航合同和法律。",
+      "buttonText": "立即探索"
+    },
+    "feature": {
+      "seamless_integration": "无缝集成",
+      "empower_your_legal_decisions": "增强您的法律决策",
+      "legal_jargon_simplified": "使用 AVOTA，复杂的法律术语被简化。自动化和智能分析提升您的理解，使法律流程如同轻风般简单。",
+      "secure_reliable": "安全可靠",
+      "weve_got_you_covered": "我们为您提供保障",
+      "data_security_priority": "您的数据安全是我们的首要任务。通过高级加密和强大的隐私控制，AVOTA 确保您的信息如同在保险库中一样安全。",
+      "watch_the_demo": "观看演示",
+      "read_the_docs": "阅读文档"
+    },
+    "detail": {
+      "ai_powered_contract_analysis": "AI 驱动的合同分析",
+      "collaborate_with_your_legal_team": "与您的法律团队合作",
+      "fast_and_accurate_legal_insights": "快速准确的法律见解",
+      "legal_support": "24/7 法律支持"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "我们在这里为您提供帮助！如果您有任何问题，请随时与我们联系。",
+      "setup_avota": "设置 AVOTA 有多容易？",
+      "setup_avota_answer": "设置 AVOTA 简单易用，旨在让您快速开始，几乎没有麻烦。",
+      "integrate_with_platforms": "我可以将 AVOTA 与其他平台集成吗？",
+      "integrate_with_platforms_answer": "是的，AVOTA 可以无缝集成到各种平台中，以增强您的工作流程。",
+      "update_legal_content": "您多久更新一次法律内容？",
+      "update_legal_content_answer": "我们定期更新法律内容，以确保您拥有最新的信息和功能。",
+      "refund_policy": "您的退款政策是什么？",
+      "refund_policy_answer": "如果您对我们的服务不满意，我们提供 30 天退款保证。",
+      "corporate_plans": "您有企业计划吗？",
+      "corporate_plans_answer": "是的，我们为企业客户提供定制计划。",
+      "out_of_storage": "当我存储空间不足时会发生什么？",
+      "out_of_storage_answer": "您将收到通知，您可以升级计划或删除未使用的文件。",
+      "upgrade_plan": "我可以升级我的计划吗？",
+      "upgrade_plan_answer": "是的，您可以随时通过您的帐户设置升级您的计划。",
+      "invite_team": "我如何邀请我的团队？",
+      "invite_team_answer": "您可以通过您的帐户中的用户管理部分邀请您的团队成员。",
+      "offer_training": "您是否为个人和团队提供培训？",
+      "offer_training_answer": "是的，我们为个人和团队提供培训课程。",
+      "locked_out": "我被锁定在我的帐户中，我该怎么办？",
+      "locked_out_answer": "您可以使用登录页面上的“忘记密码”链接重置密码。"
+    },
+    "pricing": {
+      "flexible_pricing_for_teams": "为所有创作者提供灵活的定价",
+      "monthly": "每月",
+      "annual": "每年",
+      "get_started": "开始",
+      "limited_time_offer": "限时优惠",
+      "plan": {
+        "basic": "基础",
+        "professional": "专业",
+        "enterprise": "企业",
+        "ideal_for_solo_creators": "适合独立创作者",
+        "most_popular": "最受欢迎的计划",
+        "exclusively_for_teams": "专为团队设计",
+        "feature": {
+          "cloud_storage": "100MB 云存储",
+          "basic_legal_templates": "访问基本法律模板",
+          "contract_analyses": "每月 5 次合同分析",
+          "support": "24/7 支持",
+          "all_basic_features": "所有基础功能",
+          "additional_storage": "1TB 额外存储",
+          "unlimited_analyses": "无限合同分析",
+          "analytics": "高级分析",
+          "all_professional_features": "所有专业功能",
+          "ten_tb_storage": "10TB 额外存储",
+          "discount_per_member": "每位成员 50% 折扣",
+          "real_time_collaboration": "实时协作"
+        }
+      }
+    },
+    "testimonial": {
+      "jessica_saunders": "Jessica Saunders",
+      "content_creator": "内容创作者",
+      "jessica_comment": "AVOTA 的法律见解无价！就像我的团队中有一位法律专家。",
+      "mark_erixon": "Mark Erixon",
+      "influencer": "影响者",
+      "mark_comment": "起初我很怀疑，但现在我无法想象没有 AVOTA 的合同管理。它是一个游戏改变者。",
+      "melanie_hurst": "Melanie Hurst",
+      "entrepreneur": "企业家",
+      "melanie_comment": "采用 AVOTA 非常简单。它使理解法律文件变得更加简单。",
+      "jim_joles": "Adam Joles",
+      "business_owner": "企业主",
+      "jim_comment": "AVOTA 改变了我们处理法律事务的方式。它高效且可靠。",
+      "jim_bradley": "Jim Bradley"
+    },
+    "demo": {
+      "button": {
+        "title": "预约演示"
+      },
+      "text": {
+        "description": "与我们的团队预约演示，了解更多关于 AVOTA 及其如何帮助您的业务的信息。"
+      }
+    },
+    "logo": {
+      "afterpay": "Afterpay",
+      "amplitude": "Amplitude",
+      "sonos": "Sonos",
+      "maze": "Maze",
+      "drips": "Drips"
+    },
+    "social": {
+      "x": "x",
+      "threads": "Threads",
+      "instagram": "Instagram",
+      "discord": "Discord"
+    },
+    "footer": {
+      "privacyPolicy": "隐私政策",
+      "termsOfUse": "使用条款"
     }
-}
+  }

@@ -1,16 +1,127 @@
 {
     "header": {
-        "logo": "XORA",
-        "nav": {
-            "features": "အင်္ဂါရပ်များ",
-            "pricing": "စျေးနှုန်းများ",
-            "faq": "မေးမြန်းများသောမေးခွန်းများ",
-            "download": "ဒေါင်းလုဒ်"
-        }
+      "logo": "AVOTA",
+      "nav": {
+        "features": "အင်္ဂါရပ်များ",
+        "pricing": "စျေးနှုန်းများ",
+        "faq": "မေးခွန်းများ",
+        "download": "Download",
+        "demo": "Demo"
+      }
     },
     "hero": {
-        "caption": "ဗီဒီယို တည်းဖြတ်ခြင်း",
-        "title": "အလွန်ရိုးရှင်းပြီး ထူးခြား",
-        "description": "XORA AI Video Editor ကို အသုံးပြုရလွယ်ကူပြီး လျင်မြန်စွာ သင်ယူနိုင်ရန် နှင့် ထင်မထားသော စွမ်းဆောင်ရည်များဖြင့် ဒီဇိုင်းဆွဲထားပါသည်။"
+      "caption": "Legal Assistance",
+      "title": "Amazingly Simple",
+      "description": "AVOTA AI makes legal contracts easy. Get insights without jargon. Simplify decisions and workflows.",
+      "buttonText": "Try it now"
+    },
+    "feature": {
+      "seamless_integration": "ချောမွေ့သော ပေါင်းစည်းမှု",
+      "empower_your_legal_decisions": "သင့်ဥပဒေဆုံးဖြတ်ချက်များကို အင်အားဖြည့်ပါ",
+      "legal_jargon_simplified": "AVOTA simplifies legal language. Automation boosts understanding and eases processes.",
+      "secure_reliable": "လုံခြုံပြီး ယုံကြည်ရသော",
+      "weve_got_you_covered": "ကျွန်ုပ်တို့သည် သင့်ကို ကာကွယ်ထားပါသည်",
+      "data_security_priority": "သင့်ဒေတာလုံခြုံရေးသည် ကျွန်ုပ်တို့၏ အဓိက ဦးစားပေးမှုဖြစ်သည်။ AVOTA သည် သင့်အချက်အလက်ကို လုံခြုံစေသည်။",
+      "watch_the_demo": "Watch the Demo",
+      "read_the_docs": "Read the Docs"
+    },
+    "detail": {
+      "ai_powered_contract_analysis": "AI စာချုပ်ခွဲခြမ်းစိတ်ဖြာမှု",
+      "collaborate_with_your_legal_team": "သင့်ဥပဒေအဖွဲ့နှင့် ပူးပေါင်းပါ",
+      "fast_and_accurate_legal_insights": "အမြန်နှင့် တိကျသော ဥပဒေသဘောထားများ",
+      "legal_support": "၂၄/၇ ဥပဒေကူညီမှု"
+    },
+    "faq": {
+      "title": "မေးခွန်းများ",
+      "description": "ကျွန်ုပ်တို့သည် အကူအညီပေးရန် ရှိနေပါသည်! မေးခွန်းများရှိပါက ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။",
+      "setup_avota": "AVOTA ကို စတင်ရန် လွယ်ကူပါသလား?",
+      "setup_avota_answer": "AVOTA ကို စတင်ရန် လွယ်ကူပြီး အသုံးပြုရလွယ်ကူစေရန် ဖန်တီးထားသည်။",
+      "integrate_with_platforms": "AVOTA ကို အခြားပလက်ဖောင်းများနှင့် ပေါင်းစည်းနိုင်ပါသလား?",
+      "integrate_with_platforms_answer": "ဟုတ်ကဲ့၊ AVOTA သည် အမျိုးမျိုးသော ပလက်ဖောင်းများနှင့် ပေါင်းစည်းနိုင်သည်။",
+      "update_legal_content": "သင့်ဥပဒေအကြောင်းအရာကို မကြာခဏ အပ်ဒိတ်လုပ်ပါသလား?",
+      "update_legal_content_answer": "ကျွန်ုပ်တို့သည် ဥပဒေအကြောင်းအရာကို မကြာခဏ အပ်ဒိတ်လုပ်ပါသည်။",
+      "refund_policy": "သင့်ပြန်အမ်းငွေမူဝါဒက ဘာလဲ?",
+      "refund_policy_answer": "မကျေနပ်ပါက ၃၀ ရက်အတွင်း ပြန်အမ်းငွေ အာမခံချက်ကို ပေးပါသည်။",
+      "corporate_plans": "သင့်တွင် ကော်ပိုရိတ်အစီအစဉ်များ ရှိပါသလား?",
+      "corporate_plans_answer": "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့သည် ကော်ပိုရိတ်ဖောက်သည်များအတွက် အထူးအစီအစဉ်များကို ပေးပါသည်။",
+      "out_of_storage": "သိုလှောင်မှု ပြီးဆုံးသွားပါက ဘာဖြစ်မလဲ?",
+      "out_of_storage_answer": "သင့်အစီအစဉ်ကို မြှင့်တင်ရန် သို့မဟုတ် ဖိုင်များကို ဖျက်ရန် နိုင်သည်။",
+      "upgrade_plan": "ကျွန်ုပ်၏အစီအစဉ်ကို မြှင့်တင်နိုင်ပါသလား?",
+      "upgrade_plan_answer": "ဟုတ်ကဲ့၊ သင့်အစီအစဉ်ကို အချိန်မရွေး မြှင့်တင်နိုင်သည်။",
+      "invite_team": "ကျွန်ုပ်၏အဖွဲ့ကို ဘယ်လို ဖိတ်ခေါ်ရမလဲ?",
+      "invite_team_answer": "သင့်အဖွဲ့ဝင်များကို ဖိတ်ခေါ်နိုင်သည်။",
+      "offer_training": "တစ်ဦးချင်းနှင့် အဖွဲ့များအတွက် လေ့ကျင့်မှုကို ပေးပါသလား?",
+      "offer_training_answer": "ဟုတ်ကဲ့၊ လေ့ကျင့်မှုအစည်းအဝေးများကို ပေးပါသည်။",
+      "locked_out": "ကျွန်ုပ်၏အကောင့်မှ ပိတ်ထားပါက ဘာလုပ်ရမလဲ?",
+      "locked_out_answer": "လော့ဂ်အင်စာမျက်နှာရှိ 'စကားဝှက်မေ့နေပါသလား' လင့်ခ်ကို အသုံးပြု၍ သင့်စကားဝှက်ကို ပြန်လည်သတ်မှတ်နိုင်သည်။"
+    },
+    "pricing": {
+      "flexible_pricing_for_teams": "အဖွဲ့များအတွက် စျေးနှုန်းများ",
+      "monthly": "လစဉ်",
+      "annual": "နှစ်စဉ်",
+      "get_started": "Get Started",
+      "limited_time_offer": "Limited Time Offer",
+      "plan": {
+        "basic": "အခြေခံ",
+        "professional": "ပရော်ဖက်ရှင်နယ်",
+        "enterprise": "လုပ်ငန်း",
+        "ideal_for_solo_creators": "တစ်ဦးချင်းဖန်တီးသူများအတွက် သင့်လျော်သည်",
+        "most_popular": "အများဆုံး လူကြိုက်များသော အစီအစဉ်",
+        "exclusively_for_teams": "အဖွဲ့များအတွက် သီးသန့်",
+        "feature": {
+          "cloud_storage": "100MB Cloud storage",
+          "basic_legal_templates": "အခြေခံ ဥပဒေစနစ်များ",
+          "contract_analyses": "လစဉ်စာချုပ်ခွဲခြမ်းစိတ်ဖြာမှု ၅ ခု",
+          "support": "၂၄/၇ အထောက်အပံ့",
+          "all_basic_features": "အခြေခံအင်္ဂါရပ်များ",
+          "additional_storage": "1TB အပိုသိုလှောင်မှု",
+          "unlimited_analyses": "စာချုပ်ခွဲခြမ်းစိတ်ဖြာမှု အကန့်အသတ်မရှိ",
+          "analytics": "အဆင့်မြင့်ခွဲခြမ်းစိတ်ဖြာမှု",
+          "all_professional_features": "ပရော်ဖက်ရှင်နယ်အင်္ဂါရပ်များ",
+          "ten_tb_storage": "10TB အပိုသိုလှောင်မှု",
+          "discount_per_member": "အဖွဲ့ဝင်တစ်ဦးလျှင် ၅၀% လျှော့စျေး",
+          "real_time_collaboration": "အချိန်နှင့်တပြေးညီ ပူးပေါင်းဆောင်ရွက်မှု"
+        }
+      }
+    },
+    "testimonial": {
+      "jessica_saunders": "Jessica Saunders",
+      "content_creator": "အကြောင်းအရာ ဖန်တီးသူ",
+      "jessica_comment": "AVOTA ၏ ဥပဒေသဘောထားများသည် အဖိုးတန်ပါသည်! ငါ့အဖွဲ့တွင် ဥပဒေကျွမ်းကျင်သူတစ်ဦး ရှိသကဲ့သို့ ဖြစ်သည်။",
+      "mark_erixon": "Mark Erixon",
+      "influencer": "အကျိုးသက်ရောက်မှုရှိသူ",
+      "mark_comment": "စတင်ချိန်တွင် သံသယရှိခဲ့သော်လည်း၊ ယခုတွင် AVOTA မပါဘဲ စာချုပ်များကို စီမံခန့်ခွဲရန် မထင်နိုင်တော့ပါ။ ၎င်းသည် ဂိမ်းပြောင်းလဲသူတစ်ဦးဖြစ်သည်။",
+      "melanie_hurst": "Melanie Hurst",
+      "entrepreneur": "စီးပွားရေးလုပ်ငန်းရှင်",
+      "melanie_comment": "AVOTA ကို လက်ခံရရှိခြင်းသည် လွယ်ကူသည်။ ၎င်းသည် ဥပဒေစာရွက်စာတမ်းများကို နားလည်ရန် အလွန်ရိုးရှင်းစေသည်။",
+      "jim_joles": "Adam Joles",
+      "business_owner": "စီးပွားရေးလုပ်ငန်းပိုင်ရှင်",
+      "jim_comment": "AVOTA သည် ကျွန်ုပ်တို့၏ ဥပဒေကိစ္စများကို ကိုင်တွယ်နည်းကို ပြောင်းလဲပေးသည်။ ၎င်းသည် ထိရောက်ပြီး ယုံကြည်ရသည်။",
+      "jim_bradley": "Jim Bradley"
+    },
+    "demo": {
+      "button": {
+        "title": "Book a Demo"
+      },
+      "text": {
+        "description": "Book a demo with our team to learn more about AVOTA and how it can assist your business."
+      }
+    },
+    "logo": {
+      "afterpay": "Afterpay",
+      "amplitude": "Amplitude",
+      "sonos": "Sonos",
+      "maze": "Maze",
+      "drips": "Drips"
+    },
+    "social": {
+      "x": "x",
+      "threads": "Threads",
+      "instagram": "Instagram",
+      "discord": "Discord"
+    },
+    "footer": {
+      "privacyPolicy": "ကိုယ်ရေးအချက်အလက် မူဝါဒ",
+      "termsOfUse": "အသုံးပြုမှု စည်းမျဉ်းများ"
     }
-}
+  }

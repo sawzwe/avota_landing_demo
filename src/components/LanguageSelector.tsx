@@ -45,7 +45,6 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({
       customLabels={Object.fromEntries(
         Object.entries(languages).map(([key, { label }]) => [key, label]),
       )}
-      className="lg:hidden"
     />
   );
 };

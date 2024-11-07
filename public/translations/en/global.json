@@ -119,5 +119,9 @@
     "threads": "Threads",
     "instagram": "Instagram",
     "discord": "Discord"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
   }
 }
