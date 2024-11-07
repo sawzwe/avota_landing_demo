@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "../components/LanguageSelector";
 
 const Header = () => {
   const { t } = useTranslation("global");
